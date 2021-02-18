@@ -14,11 +14,6 @@ public class Main {
 		
 		mqReceiver receiverTwo = new mqReceiver();
 		receiverTwo.start();
-		
-		mqReceiver receiverThree = new mqReceiver();
-		receiverThree.start();
-		
-		mqReceiver receiverFour = new mqReceiver();
-		receiverFour.start();
+
 	}
 }
